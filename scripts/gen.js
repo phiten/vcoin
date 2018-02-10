@@ -66,9 +66,9 @@ function createGenesisBlock(options) {
 
 const main = createGenesisBlock({
   version: 1,
-  time: 1317972665,
-  bits: 504365040,
-  nonce: 2084524493,
+  time: 1472688287,
+  bits: 522190847,
+  nonce: 121,
   flags: Buffer.from(
     'NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56',
     'ascii'),

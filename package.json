@@ -1,20 +1,20 @@
 {
-  "name": "lcoin",
+  "name": "vcoin",
   "version": "1.0.0-beta.15",
-  "description": "Litecoin bike-shed",
+  "description": "Verium Reserve bike-shed",
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/lcoin.git",
-  "homepage": "https://github.com/bcoin-org/lcoin",
+  "repository": "git://github.com/phiten/vcoin.git",
+  "homepage": "https://github.com/phiten/vcoin",
   "bugs": {
-    "url": "https://github.com/bcoin-org/lcoin/issues"
+    "url": "https://github.com/phiten/vcoin/issues"
   },
   "author": "Fedor Indutny <fedor@indutny.com>",
   "contributors": [
     "Christopher Jeffrey <chjjeffrey@gmail.com>"
   ],
   "keywords": [
-    "bcoin",
-    "bitcoin",
+    "vcoin",
+    "verium",
     "blockchain",
     "cryptocurrency",
     "wallet"
@@ -53,10 +53,10 @@
   },
   "main": "./lib/bcoin.js",
   "bin": {
-    "lcoin": "./bin/lcoin",
-    "lcoin-cli": "./bin/cli",
-    "lcoin-node": "./bin/node",
-    "lcoin-spvnode": "./bin/spvnode"
+    "vcoin": "./bin/vcoin",
+    "vcoin-cli": "./bin/cli",
+    "vcoin-node": "./bin/node",
+    "vcoin-spvnode": "./bin/spvnode"
   },
   "scripts": {
     "clean": "rm -f {browser/,}{bcoin.js,bcoin-worker.js}",
